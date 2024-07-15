@@ -34,6 +34,7 @@ const LoginPage = () => {
                 >
                     Welcome to AntiSosh
                 </Typography>
+            <Form/>
             </Box>
         </Box>
     );
