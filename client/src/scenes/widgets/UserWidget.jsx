@@ -32,7 +32,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
     useEffect(() => {
         getUser();
-    }, [])
+    })
 
     if(!user) {
         return null
@@ -65,7 +65,7 @@ const UserWidget = ({ userId, picturePath }) => {
                             fontWeight="500"
                             sx={{
                                 "&:hover": {
-                                    color: palette.primary.light,
+                                    color: palette.primary.dark,
                                     cursor: "pointer"
                                 }
                             }}
